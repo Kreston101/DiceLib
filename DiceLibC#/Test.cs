@@ -1,5 +1,5 @@
 ﻿using DiceLibC_;
-RandFunctions randFunc = new RandFunctions();
+DiceLib randFunc = new DiceLib();
 
 for(int i = 0; i < 25; i++)
 {

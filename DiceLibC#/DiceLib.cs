@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace DiceLibC_
 {
-    public class RandFunctions
+    public class DiceLib
     {
         //coin fip, 50/50, 0 = heads, 1 = tails
         public int CoinFlip()
         {
             Random rand = new Random();
-            int randInt = rand.Next(0,2);
+            int randInt = rand.Next(0, 2);
             return randInt;
         }
 
